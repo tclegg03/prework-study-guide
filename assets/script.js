@@ -1,8 +1,8 @@
 
 var topic  = ['HTML', 'CSS', 'Git', 'JavaScript'];
+function listTopics() {
+for(var x=0;x<topic.length; x++){console.log(topic[x])}}
 
-for(var x=0;x<topic.length; x++){console.log(topic[x])}
-/*
 if (topic === 'HTML') {
   console.log("Let's study HTML!");
 } else if (topic === 'CSS') {
@@ -14,4 +14,4 @@ if (topic === 'HTML') {
 } else {
   console.log('Please try again!');
 }
-*/
+
